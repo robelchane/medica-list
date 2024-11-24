@@ -87,7 +87,7 @@ export default function MedicineList() {
         </h1>
         <form onSubmit={handleSubmit}>
           {/* Input Fields */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6 text-black">
             <input
               name="name"
               type="text"
@@ -142,7 +142,7 @@ export default function MedicineList() {
               className="border p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-300"
             />
             <div>
-              <label className="block text-black text-base font-medium">Expiry Date</label>
+              <label className="block text-base font-medium">Expiry Date</label>
             <input
               name="expiry_date"
               type="date"
