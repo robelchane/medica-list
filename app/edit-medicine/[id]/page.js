@@ -101,7 +101,7 @@ export default function EditMedicine() {
           </Link>
         </nav>
       </header>
-      <div className="py-8 px-4 mt-24 max-w-4xl w-full">
+      <div className="py-8 px-4 mt-24 max-w-4xl w-full text-black">
         <h2 className="text-center text-[#001f3f] text-4xl font-serif mb-8">
           Edit Medicine
         </h2>

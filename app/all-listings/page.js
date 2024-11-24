@@ -62,7 +62,7 @@ export default function AllListings() {
       </header>
 
       {/* Filter Form */}
-      <form onSubmit={handleSearch} className="grid grid-cols-4 gap-4 mb-8">
+      <form onSubmit={handleSearch} className="grid grid-cols-4 gap-4 mb-8 text-black">
         <div>
           <input
             name="name"
